@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title = "Tweeter"
+    = stylesheet_link_tag    "application"
+    javascript:
+      if(top.location != window.location) top.location = window.location;
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  body
+    = yield
