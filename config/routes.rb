@@ -1,4 +1,4 @@
-Tweeter::Application.routes.draw do
+Tweetogit::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

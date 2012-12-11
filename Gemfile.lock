@@ -11,7 +11,7 @@ GEM
       erubis (~> 2.7.0)
       journey (~> 1.0.4)
       rack (~> 1.4.0)
-      rack-cache (= 1.2)
+      rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
     activemodel (3.2.9)
@@ -45,8 +45,8 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.19)
-    multi_json (1.4.0)
-    mysql (2.9.0)
+    multi_json (1.5.0)
+    mysql2 (0.3.11)
     polyglot (0.3.3)
     pry (0.9.10)
       coderay (~> 1.0.5)
@@ -99,7 +99,7 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails
-  mysql
+  mysql2
   pry
   rails (= 3.2.9)
   slim

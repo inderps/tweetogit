@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Tweeter::Application.config.secret_token = '195528785116b54534b54f6ccf1fb7aa97065ecf547d2c02126131d10835c4bafb41e848ddf0dd039330879a3294824809cfece940d9573a0134dd6e6179e4f2'
+Tweetogit::Application.config.secret_token = 'd173f2c85c669733b7bb71a58833f6eb0b6a29d774d87cd8c35a5919ce756e41e2ee39d64b96627490256288a205695a3d306924cbef408a96b9182c9867e123'
