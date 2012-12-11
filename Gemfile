@@ -9,6 +9,8 @@ gem 'mysql2'
 gem 'pry'
 gem 'jquery-rails'
 gem 'slim'
+gem 'her'
+gem "faraday_middleware"
 
 # Gems used only for assets and not required
 # in production environments by default.
