@@ -59,6 +59,7 @@ Tweetogit::Application.routes.draw do
   get "github/callback"
 
   get '/' => 'message#tweet'
+  get 'dummy' => 'message#dummy'
 
   post '/submit' => 'message#create', :as => :submit_message
 

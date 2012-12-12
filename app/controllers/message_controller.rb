@@ -4,4 +4,7 @@ class MessageController < ApplicationController
   def create
     render action: :tweet
   end
+
+  def dummy
+  end
 end
