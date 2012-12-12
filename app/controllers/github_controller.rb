@@ -6,8 +6,8 @@ class GithubController < ApplicationController
   end
 
   def callback
-    token = User.token params[:code]
-    user = User.me(token)
+    token = Github::User.token params[:code]
+    user = Github::User.me(token)
     session[:token] = token
     session[:user] = user
     redirect_to(session[:redirect_url])
